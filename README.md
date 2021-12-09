@@ -64,9 +64,9 @@ uint256 public constant threshold = 1 ether;
 
 #### 🥅 Goals
 
-- [ ] Do you see the balance of the `Staker` contract go up when you `stake()`?
-- [ ] Is your `balance` correctly tracked?
-- [ ] Do you see the events in the `Staker UI` tab?
+- [ X] Do you see the balance of the `Staker` contract go up when you `stake()`?
+- [ X] Is your `balance` correctly tracked?
+- [X ] Do you see the events in the `Staker UI` tab?
 
 
 ---
@@ -99,9 +99,9 @@ If the balance is less than the `threshold`, you want to set a `openForWithdraw`
 > 👩‍💻 You can call `yarn deploy --reset` any time you want a fresh contract
 
 #### 🥅 Goals
-- [ ] Can you see `timeLeft` counting down in the `Staker UI` tab when you trigger a transaction with the faucet?
-- [ ] If you `stake()` enough ETH before the `deadline`, does it call `complete()`?
-- [ ] If you don't `stake()` enough can you `withdraw(address payable)` your funds?
+- [X ] Can you see `timeLeft` counting down in the `Staker UI` tab when you trigger a transaction with the faucet?
+- [X ] If you `stake()` enough ETH before the `deadline`, does it call `complete()`?
+- [X ] If you don't `stake()` enough can you `withdraw(address payable)` your funds?
 
 
 ---
@@ -115,7 +115,7 @@ If the balance is less than the `threshold`, you want to set a `openForWithdraw`
 
 ---
 #### 🥅 Goals
-- [ ] If you send ETH directly to the contract address does it update your `balance`?
+- [ X] If you send ETH directly to the contract address does it update your `balance`?
 
 ---
 
